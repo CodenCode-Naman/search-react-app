@@ -1,0 +1,41 @@
+/* SearchTab.css */
+
+.SearchTab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+}
+
+.SearchTab input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.SearchTab .trendSuggestionBox {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.SearchTab .trendSuggestion {
+    margin: 5px 0;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.SearchTab .trendSuggestion:hover {
+    background-color: #f0f0f0;
+}
